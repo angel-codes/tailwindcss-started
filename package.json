@@ -4,17 +4,24 @@
   "description": "Basic Started to use Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build index.css -o src/css/styles.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/angel-codes/tailwindcss-started.git"
   },
-  "keywords": ["html", "css", "tailwindcss"],
+  "keywords": [
+    "html",
+    "css",
+    "tailwindcss"
+  ],
   "author": "Angel Martinez",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/angel-codes/tailwindcss-started/issues"
   },
-  "homepage": "https://github.com/angel-codes/tailwindcss-started#readme"
+  "homepage": "https://github.com/angel-codes/tailwindcss-started#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
 }
